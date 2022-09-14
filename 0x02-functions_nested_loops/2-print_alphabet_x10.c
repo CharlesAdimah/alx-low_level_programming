@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10: prints ten times the alphabet in lowercase
+ * print_alphabet_x10 - prints ten times the alphabet in lowercase
  * followed by a new line
  */
 void print_alphabet_x10(void)
@@ -22,5 +22,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		i++;
 	}
-}
-				
+}	
