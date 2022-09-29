@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * helperfunction - return 0 or 1
+ * helperFunction - return 0 or 1
  * @num: number being checked
  * @i: possible factor of the number
  * Return: 1 if prime number, 0 if not
  */
-int helperfunction(int num, int i)
+int helperFunction(int num, int i)
 {
 	if (i < num)
 	{
@@ -17,7 +17,7 @@ int helperfunction(int num, int i)
 
 		else
 		{
-			return (helperfunction(num, i + 1));
+			return (helperFunction(num, i + 1));
 		}
 	}
 	else
@@ -41,6 +41,6 @@ int is_prime_number(int n)
 
 	else
 	{
-		return (helperfunction(n, 2);
+		return (helperFunction(n, 2);
 	}
 }
