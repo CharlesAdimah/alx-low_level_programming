@@ -8,7 +8,7 @@
  * Return: Always EXIT_SUCCESS.
  */
 
-int main(void)
+int strnlen(char *param, int maxlen)
 {
 	printf("%d\n", _strlen("Holberton"));
 	return (EXIT_SUCCESS);
