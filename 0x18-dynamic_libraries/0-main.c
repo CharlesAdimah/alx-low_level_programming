@@ -8,7 +8,7 @@
  * Return: Always EXIT_SUCCESS.
  */
 
-long unsigned int(const char *, long unsigned int)
+int main _strlen(void)
 {
 	printf("%d\n", _strlen("Holberton"));
 	return (EXIT_SUCCESS);
